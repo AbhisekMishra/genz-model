@@ -1,0 +1,37 @@
+base_model: Qwen/Qwen2.5-1.5B-Instruct
+output_dir: outputs/checkpoints
+adapter_dir: outputs/adapter
+
+# data
+train_file: data/processed/train.jsonl
+val_file: data/processed/val.jsonl
+max_seq_length: 1024
+
+# quantization
+load_in_4bit: true
+bnb_4bit_quant_type: nf4
+bnb_4bit_compute_dtype: bfloat16
+bnb_4bit_use_double_quant: true
+
+# lora
+lora_config: configs/lora_config.json
+
+# training
+num_train_epochs: 3
+per_device_train_batch_size: 4
+gradient_accumulation_steps: 8
+learning_rate: 2.0e-4
+lr_scheduler_type: cosine
+warmup_steps: 30
+optim: paged_adamw_8bit
+gradient_checkpointing: true
+logging_steps: 10
+eval_strategy: steps
+eval_steps: 50
+save_strategy: steps
+save_steps: 50
+save_total_limit: 3
+bf16: true
+seed: 42
+
+# pilot run override (use --max_steps on the CLI for the short pilot run)

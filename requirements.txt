@@ -1,0 +1,11 @@
+# CUDA-enabled torch installed separately via:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+transformers>=4.46
+peft>=0.13
+trl>=0.12
+bitsandbytes>=0.44
+accelerate>=1.0
+datasets
+huggingface_hub
+sentencepiece
+protobuf

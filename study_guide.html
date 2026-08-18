@@ -1,0 +1,821 @@
+<title>GenZ Model Postmortem</title>
+<style>
+  :root {
+    --ink: #1E2A2E;
+    --ink-soft: #4B5854;
+    --ink-faint: #7C8783;
+    --paper: #EEF1EC;
+    --paper-raised: #FFFFFF;
+    --rule: #D7DBD2;
+    --accent: #4C56C9;
+    --accent-soft: #E4E5F7;
+    --good: #2E8074;
+    --good-soft: #DCEEEA;
+    --bad: #B5432E;
+    --bad-soft: #F6E3DE;
+    --mono-tint: #E7E9E2;
+    --font-mono: ui-monospace, "SF Mono", "Cascadia Code", "JetBrains Mono", Consolas, "Roboto Mono", monospace;
+    --font-serif: ui-serif, Charter, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ink: #E7ECE6;
+      --ink-soft: #AAB6B0;
+      --ink-faint: #7D8A85;
+      --paper: #14181A;
+      --paper-raised: #1B2124;
+      --rule: #2B3336;
+      --accent: #8B93F6;
+      --accent-soft: #262A4A;
+      --good: #5FC6AC;
+      --good-soft: #1C2E2A;
+      --bad: #E58A72;
+      --bad-soft: #3A241D;
+      --mono-tint: #1F2528;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --ink: #E7ECE6;
+    --ink-soft: #AAB6B0;
+    --ink-faint: #7D8A85;
+    --paper: #14181A;
+    --paper-raised: #1B2124;
+    --rule: #2B3336;
+    --accent: #8B93F6;
+    --accent-soft: #262A4A;
+    --good: #5FC6AC;
+    --good-soft: #1C2E2A;
+    --bad: #E58A72;
+    --bad-soft: #3A241D;
+    --mono-tint: #1F2528;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--font-serif);
+    margin: 0;
+    padding: 0;
+  }
+
+  .page {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 3.5rem 1.5rem 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  /* ---- header ---- */
+
+  header.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+  }
+
+  .kicker {
+    font-family: var(--font-mono);
+    font-size: 0.74rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  h1 {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: clamp(1.7rem, 4.4vw, 2.35rem);
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+    margin: 0;
+    text-wrap: balance;
+    color: var(--ink);
+  }
+
+  .dek {
+    font-family: var(--font-serif);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    max-width: 62ch;
+    margin: 0;
+  }
+
+  .meta-row {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    color: var(--ink-faint);
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+  }
+
+  /* ---- stat tiles ---- */
+
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 0.75rem;
+  }
+
+  .stat-tile {
+    background: var(--paper-raised);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 0.85rem 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .stat-value {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1;
+  }
+
+  .stat-label {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.04em;
+    color: var(--ink-faint);
+    text-transform: uppercase;
+  }
+
+  /* ---- section scaffolding ---- */
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1rem;
+    padding-top: 2.1rem;
+    border-top: 1px solid var(--rule);
+  }
+
+  .section-head {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  h2 {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 1.32rem;
+    margin: 0;
+    color: var(--ink);
+    text-wrap: balance;
+  }
+
+  h3 {
+    font-family: var(--font-mono);
+    font-weight: 600;
+    font-size: 1.02rem;
+    margin: 1.1rem 0 0;
+    color: var(--ink);
+  }
+
+  p, li {
+    font-size: 1.02rem;
+    line-height: 1.72;
+    color: var(--ink);
+    max-width: 66ch;
+  }
+
+  p { margin: 0; }
+
+  ul, ol {
+    margin: 0;
+    padding-left: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+  }
+
+  strong { color: var(--ink); }
+
+  code {
+    font-family: var(--font-mono);
+    font-size: 0.88em;
+    background: var(--mono-tint);
+    padding: 0.1em 0.35em;
+    border-radius: 4px;
+    color: var(--ink);
+  }
+
+  .callout {
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    border-radius: 4px;
+    padding: 1rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .callout .callout-label {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  .callout p { max-width: 60ch; }
+
+  /* ---- decision table ---- */
+
+  .table-wrap { overflow-x: auto; }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.94rem;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 0.55rem 0.8rem;
+    border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+  }
+
+  th {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    font-weight: 600;
+  }
+
+  td.mono, .hp-table td:first-child {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    font-size: 0.88rem;
+    color: var(--ink);
+    white-space: nowrap;
+  }
+
+  /* ---- rounds (sequential, numbered) ---- */
+
+  .round {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-top: 1px dashed var(--rule);
+  }
+
+  .round:first-of-type { border-top: none; }
+
+  .round-num {
+    flex: none;
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius: 50%;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .round-body { display: flex; flex-direction: column; gap: 0.4rem; flex: 1; }
+
+  .round-title-row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+
+  .round-title { font-family: var(--font-mono); font-weight: 600; font-size: 0.98rem; }
+
+  .badge {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 0.18rem 0.5rem;
+    border-radius: 999px;
+    white-space: nowrap;
+  }
+
+  .badge.good { background: var(--good-soft); color: var(--good); }
+  .badge.bad { background: var(--bad-soft); color: var(--bad); }
+
+  /* ---- chart ---- */
+
+  .chart-card {
+    background: var(--paper-raised);
+    border: 1px solid var(--rule);
+    border-radius: 8px;
+    padding: 1.1rem 1.2rem 0.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .chart-title {
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+    color: var(--ink-soft);
+  }
+
+  .legend {
+    display: flex;
+    gap: 1.2rem;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--ink-soft);
+  }
+
+  .legend-item { display: flex; align-items: center; gap: 0.4rem; }
+
+  .swatch { width: 14px; height: 2px; display: inline-block; }
+
+  .swatch.eval { background: var(--accent); }
+  .swatch.train { background: var(--good); background-image: repeating-linear-gradient(90deg, var(--good) 0 4px, transparent 4px 7px); }
+
+  svg text { font-family: var(--font-mono); }
+
+  /* ---- glossary ---- */
+
+  .glossary dt {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: var(--ink);
+    margin-top: 1rem;
+  }
+
+  .glossary dt:first-child { margin-top: 0; }
+
+  .glossary dd {
+    margin: 0.25rem 0 0;
+    font-size: 0.98rem;
+    line-height: 1.65;
+    color: var(--ink-soft);
+    max-width: 62ch;
+  }
+
+  /* ---- qa ---- */
+
+  .qa { display: flex; flex-direction: column; gap: 1.3rem; }
+
+  .qa-item { display: flex; flex-direction: column; gap: 0.35rem; }
+
+  .qa-q {
+    font-family: var(--font-mono);
+    font-weight: 600;
+    font-size: 0.96rem;
+    color: var(--ink);
+  }
+
+  .qa-q::before { content: "Q — "; color: var(--accent); }
+
+  .qa-a { font-size: 0.98rem; line-height: 1.65; color: var(--ink-soft); max-width: 62ch; }
+
+  footer {
+    padding-top: 2rem;
+    border-top: 1px solid var(--rule);
+    font-family: var(--font-mono);
+    font-size: 0.76rem;
+    color: var(--ink-faint);
+  }
+
+  @media (max-width: 520px) {
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    .round { gap: 0.7rem; }
+  }
+</style>
+
+<div class="page">
+
+  <header class="hero">
+    <div class="kicker">Build log · fine-tuning postmortem</div>
+    <h1>Teaching a 1.5B model to say "no cap" and mean it</h1>
+    <p class="dek">
+      A working record of fine-tuning <code>Qwen2.5-1.5B-Instruct</code> into a genz-slang
+      persona + translator model with QLoRA, on a single 8&nbsp;GB laptop GPU, and the four
+      rounds of debugging it took to make the slang <em>accurate</em>, not just present.
+      Written to study from before an interview, not to be read top to bottom in one sitting.
+    </p>
+    <div class="meta-row">
+      <span>base model: Qwen2.5-1.5B-Instruct</span>
+      <span>method: QLoRA</span>
+      <span>hardware: RTX 4060 Laptop, 8GB</span>
+    </div>
+  </header>
+
+  <div class="stats">
+    <div class="stat-tile">
+      <span class="stat-value">1.2%</span>
+      <span class="stat-label">params trained</span>
+    </div>
+    <div class="stat-tile">
+      <span class="stat-value">18.4M</span>
+      <span class="stat-label">/ 1.56B total</span>
+    </div>
+    <div class="stat-tile">
+      <span class="stat-value">~4,300</span>
+      <span class="stat-label">training examples</span>
+    </div>
+    <div class="stat-tile">
+      <span class="stat-value">~22min</span>
+      <span class="stat-label">per full run, 3 epochs</span>
+    </div>
+    <div class="stat-tile">
+      <span class="stat-value">5</span>
+      <span class="stat-label">full retrains, incl. eval</span>
+    </div>
+    <div class="stat-tile">
+      <span class="stat-value">3.7GB</span>
+      <span class="stat-label">peak VRAM used</span>
+    </div>
+  </div>
+
+  <section>
+    <div class="section-head">
+      <div class="kicker">01 · the brief</div>
+      <h2>What was being built</h2>
+    </div>
+    <p>
+      A small open-source LLM fine-tuned for two behaviors selected by system prompt: a
+      genz-slang persona chatbot, and a style-transfer tool that rewrites plain text into
+      genz slang while preserving meaning. Trained locally, no API budget, published to
+      Hugging Face with a real model card. The interesting part wasn't the training run
+      itself — it was discovering the model was <em>confidently wrong</em> about several slang
+      terms, and the iterative work to fix that without breaking anything else.
+    </p>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <div class="kicker">02 · decisions & why</div>
+      <h2>Three choices worth defending in an interview</h2>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Decision</th><th>Reasoning</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Qwen2.5-1.5B-Instruct</strong> over larger/other models</td>
+            <td>Apache&nbsp;2.0 (redistributable — the 3B sibling in the same family isn't),
+              ungated (no manual access request, unlike Llama), and small enough to fit
+              4-bit-quantized in 8GB VRAM with headroom to spare.</td>
+          </tr>
+          <tr>
+            <td><strong>QLoRA</strong> over full fine-tuning</td>
+            <td>Full fine-tuning needs gradients + optimizer state + activations for every
+              parameter — easily 20–30GB+ for a model this size. QLoRA freezes the base
+              model, quantizes it to 4-bit, and trains small injected adapter matrices
+              instead — fits comfortably on one consumer GPU.</td>
+          </tr>
+          <tr>
+            <td><strong>Synthetic + grounding data</strong> over scraping</td>
+            <td>No LLM API budget ruled out runtime generation at scale. Hand-authored a
+              pilot batch for tone approval, then parallelized authoring across independent
+              writers with a fixed schema, grounded in real HF slang datasets for vocabulary
+              authenticity rather than inventing terms.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <div class="kicker">03 · the technique</div>
+      <h2>LoRA / QLoRA, in one breath</h2>
+    </div>
+    <p>
+      <strong>LoRA (Low-Rank Adaptation):</strong> freeze the base model's weights entirely,
+      and inject small trainable low-rank matrices into specific layers — here, every
+      attention and MLP projection. Only those injected matrices get gradients. The result
+      here trained <strong>18.4M of 1.56B parameters (1.2%)</strong>, which is why it fits on
+      a laptop GPU and trains in minutes, not hours.
+    </p>
+    <p>
+      <strong>The "Q":</strong> the frozen base weights are loaded in 4-bit (NF4 format,
+      double-quantized) so they take roughly a quarter of the memory of full precision,
+      while the small LoRA adapters still train in bf16 for numerical stability. Quantizing
+      the part that doesn't change and keeping full precision on the part that does is the
+      whole trick.
+    </p>
+    <div class="table-wrap hp-table">
+      <table>
+        <thead><tr><th>Hyperparameter</th><th>Value</th></tr></thead>
+        <tbody>
+          <tr><td>LoRA rank / alpha</td><td>16 / 32</td></tr>
+          <tr><td>Target modules</td><td>all attention + MLP projections</td></tr>
+          <tr><td>Quantization</td><td>4-bit NF4, double quant, bf16 compute</td></tr>
+          <tr><td>Max sequence length</td><td>1024</td></tr>
+          <tr><td>Batch size / grad. accumulation</td><td>4 / 8 (effective 32)</td></tr>
+          <tr><td>Learning rate / schedule</td><td>2e-4, cosine</td></tr>
+          <tr><td>Epochs</td><td>3</td></tr>
+          <tr><td>Optimizer</td><td>paged AdamW 8-bit</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <div class="kicker">04 · data pipeline</div>
+      <h2>~4,300 examples, five categories</h2>
+    </div>
+    <p>
+      Chat-format JSONL (<code>system / user / assistant</code>) across five categories:
+      casual persona chat, slang-translation pairs, roleplay reactions, slang Q&amp;A, and
+      <strong>edge cases</strong> — formal, factual, and crisis-adjacent prompts specifically
+      included so the model learns <em>not</em> to slang-ify everything. Real Hugging Face
+      slang datasets (e.g. <code>MLBtrio/genz-slang-dataset</code>) were pulled in as
+      vocabulary grounding, not dumped straight into training.
+    </p>
+    <p>
+      Scaling technique: rather than authoring serially, generation was parallelized across
+      independent writers, each owning one category slice and a fixed JSON schema, merged
+      afterward with exact-duplicate removal and a 90/10 stratified train/val split (stratified
+      by category so validation isn't skewed toward whichever category is largest).
+    </p>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <div class="kicker">05 · the debugging story</div>
+      <h2>Why "it works" isn't the same as "it's right"</h2>
+    </div>
+    <p>
+      The training run itself was uneventful — loss dropped cleanly, no divergence. The real
+      engineering happened in evaluation: a held-out prompt set (persona, translation, slang
+      Q&amp;A, and plain factual questions to catch catastrophic forgetting) surfaced that the
+      model was <strong>confidently wrong</strong> about specific slang definitions — "rizz"
+      came back as something like "loud and boisterous" instead of charisma.
+    </p>
+    <div class="callout">
+      <span class="callout-label">Root cause</span>
+      <p>
+        The training data <em>had</em> the correct definition — but that exact term appeared
+        only once or twice across ~4,000 examples. LoRA only updates 1.2% of the model's
+        parameters; that's nowhere near enough repeated signal to overwrite a base model's
+        existing (and apparently wrong) prior belief about a token sequence. Fine-tuning
+        nudges a distribution — it doesn't overwrite a fact unless that fact shows up
+        <em>repeatedly</em>, in <em>varied phrasing</em>.
+      </p>
+    </div>
+
+    <h3>Four reinforcement rounds</h3>
+    <div class="rounds">
+      <div class="round">
+        <div class="round-num">1</div>
+        <div class="round-body">
+          <div class="round-title-row">
+            <span class="round-title">Fix the obvious break</span>
+            <span class="badge good">fixed</span>
+          </div>
+          <p>~70 examples targeting "rizz" / "no cap" / "mid" with varied phrasing, not one
+            canonical sentence repeated. Retrained, re-tested, confirmed correct.</p>
+        </div>
+      </div>
+      <div class="round">
+        <div class="round-num">2</div>
+        <div class="round-body">
+          <div class="round-title-row">
+            <span class="round-title">Broad stress test, 65 new prompts</span>
+            <span class="badge bad">13+ new misses found</span>
+          </div>
+          <p>Tested ~50 terms never touched in training, plus in-context usage (does the
+            model correctly restrict "ick" to romantic turn-offs, not general embarrassment?).
+            Surfaced sigma, beige flag, yeet, simp, periodt, boy math, canon event, and more —
+            plus misapplied terms.</p>
+        </div>
+      </div>
+      <div class="round">
+        <div class="round-num">3</div>
+        <div class="round-body">
+          <div class="round-title-row">
+            <span class="round-title">The sampling-noise detour</span>
+            <span class="badge good">methodology fix</span>
+          </div>
+          <p>A follow-up test made it look like previously-fixed terms had regressed. Re-ran
+            with <strong>greedy decoding</strong> instead of temperature sampling — most
+            "regressions" disappeared. The earlier test wasn't measuring the model's
+            knowledge, it was partly measuring sampling randomness.</p>
+        </div>
+      </div>
+      <div class="round">
+        <div class="round-num">4</div>
+        <div class="round-body">
+          <div class="round-title-row">
+            <span class="round-title">The stubborn four</span>
+            <span class="badge good">fixed with heavier data</span>
+          </div>
+          <p>Sigma, canon event, "booked and busy," and "sending me" resisted light
+            reinforcement (~5 examples) because they collide with far more common existing
+            meanings (sigma = math symbol, canon = fiction term). ~15 examples each, with
+            explicit contrastive corrections ("this is <em>not</em> about a TV show"), finally
+            moved them — and held up on phrasings never seen in training.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <span class="callout-label">The methodology point to lead with</span>
+      <p>
+        <strong>Sampling (temperature/top-p) vs. greedy decoding</strong> is not a minor
+        detail — it changes what an eval is actually measuring. Sampling draws randomly from
+        the output distribution; for a definitional question you usually want the model's
+        single most-confident answer, which is what greedy decoding gives you. Confusing the
+        two turned a real signal into apparent noise for an entire debugging round.
+      </p>
+    </div>
+
+    <h3>Eval loss across the first full training run</h3>
+    <div class="chart-card">
+      <div class="chart-title">Loss per epoch — the plateau after ~epoch 1.7 is the overfitting tell</div>
+      <div class="legend">
+        <span class="legend-item"><span class="swatch eval"></span>eval loss</span>
+        <span class="legend-item"><span class="swatch train"></span>train loss</span>
+      </div>
+      <svg viewBox="0 0 640 230" width="100%" height="230" role="img" aria-label="Line chart showing eval loss plateauing around 1.19 after epoch 1.7 while train loss keeps declining to 0.85 by epoch 3">
+        <!-- gridlines -->
+        <g stroke="var(--rule)" stroke-width="1">
+          <line x1="50" y1="20" x2="50" y2="190" />
+          <line x1="50" y1="190" x2="610" y2="190" />
+          <line x1="50" y1="130" x2="610" y2="130" stroke-dasharray="2 4" />
+          <line x1="50" y1="70" x2="610" y2="70" stroke-dasharray="2 4" />
+        </g>
+        <!-- y labels -->
+        <g fill="var(--ink-faint)" font-size="11">
+          <text x="10" y="194">0.8</text>
+          <text x="10" y="134">1.1</text>
+          <text x="10" y="74">1.4</text>
+        </g>
+        <!-- x labels (epoch) -->
+        <g fill="var(--ink-faint)" font-size="11">
+          <text x="46" y="210">0.9</text>
+          <text x="180" y="210">1.3</text>
+          <text x="300" y="210">1.7</text>
+          <text x="410" y="210">2.2</text>
+          <text x="500" y="210">2.6</text>
+          <text x="595" y="210">3.0</text>
+        </g>
+        <!-- eval loss: 1.299, 1.229, 1.184, 1.194, 1.186, 1.187 mapped y: 0.8->190, 1.4->70 (span 0.6 -> 120px) -->
+        <polyline points="50,32 180,71 300,101 410,94 500,100 610,99"
+          fill="none" stroke="var(--accent)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+        <!-- train loss: 1.268, 1.133, 1.084, 0.876, 0.846, 0.853 -->
+        <polyline points="50,54 180,144 300,177 410,225 500,235 610,231"
+          fill="none" stroke="var(--good)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          stroke-dasharray="5 4" />
+        <circle cx="610" cy="99" r="3.5" fill="var(--accent)" />
+        <circle cx="610" cy="231" r="3.5" fill="var(--good)" />
+      </svg>
+    </div>
+    <p style="font-size:0.9rem; color:var(--ink-soft);">
+      Train loss keeps declining after epoch ~1.7 while eval loss flattens — the model is
+      still fitting the training set but stops generalizing further. A modest gap like this
+      one is expected and not alarming with ~3,700 examples over 3 epochs; a widening gap is
+      the thing to watch for.
+    </p>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <div class="kicker">06 · shipping it</div>
+      <h2>Deployment</h2>
+    </div>
+    <p>
+      Merged the trained LoRA adapter into the base weights (<code>merge_and_unload()</code>)
+      to produce a standalone model requiring no extra library to load, and published
+      <strong>both</strong> that merged repo and a lightweight adapter-only repo — the adapter
+      is a few tens of MB and lets anyone apply it to the base model themselves; the merged
+      repo is a few GB but works with a single <code>from_pretrained()</code> call. Verified
+      the published model by downloading it fresh from the Hub (not local cache) and
+      confirming outputs matched what was tested pre-upload.
+    </p>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <div class="kicker">07 · glossary</div>
+      <h2>Terms to have cold</h2>
+    </div>
+    <dl class="glossary">
+      <dt>LoRA</dt>
+      <dd>Low-Rank Adaptation. Freeze the base model; train small injected low-rank matrices
+        instead of the full weight matrices. Drastically cuts trainable parameters and memory.</dd>
+
+      <dt>QLoRA</dt>
+      <dd>LoRA plus 4-bit quantization of the frozen base model. The adapters still train in
+        higher precision (bf16 here); only the frozen backbone is compressed.</dd>
+
+      <dt>4-bit NF4 quantization</dt>
+      <dd>A quantization format tuned for normally-distributed neural network weights.
+        "Double quantization" additionally quantizes the quantization constants themselves for
+        further memory savings.</dd>
+
+      <dt>Gradient accumulation</dt>
+      <dd>Simulating a larger batch size than fits in memory by accumulating gradients over
+        several small forward/backward passes before an optimizer step. Here: batch 4 ×
+        accumulation 8 = effective batch 32.</dd>
+
+      <dt>Gradient checkpointing</dt>
+      <dd>Trades compute for memory — instead of storing every layer's activations for the
+        backward pass, recompute them on demand. Slower per step, much lower peak memory.</dd>
+
+      <dt>Catastrophic forgetting</dt>
+      <dd>Fine-tuning on a narrow task degrading a model's general capability. Guarded
+        against here with plain factual prompts in the eval set that have nothing to do with
+        slang.</dd>
+
+      <dt>Overfitting signal</dt>
+      <dd>Train loss continuing to fall while eval loss plateaus or rises — the model is
+        memorizing training examples rather than generalizing further.</dd>
+
+      <dt>Chat template</dt>
+      <dd>The exact token structure (role markers, special tokens) a model was
+        instruction-tuned to expect. Training and inference data must match it, applied via
+        <code>tokenizer.apply_chat_template()</code>.</dd>
+
+      <dt>Sampling vs. greedy decoding</dt>
+      <dd>Sampling (temperature / top-p) draws randomly from the model's output probability
+        distribution — good for varied, creative generation, noisy for evaluating factual
+        correctness. Greedy decoding always takes the single highest-probability token — the
+        model's most confident, deterministic answer.</dd>
+
+      <dt>Adapter vs. merged model</dt>
+      <dd>An adapter-only release ships just the small trained LoRA matrices (needs the base
+        model + <code>peft</code> to use). A merged release bakes the adapter into the base
+        weights into one standalone model — bigger file, zero extra dependency.</dd>
+    </dl>
+  </section>
+
+  <section>
+    <div class="section-head">
+      <div class="kicker">08 · rehearsal</div>
+      <h2>Likely interview questions</h2>
+    </div>
+    <div class="qa">
+      <div class="qa-item">
+        <div class="qa-q">Why QLoRA instead of full fine-tuning?</div>
+        <div class="qa-a">Memory. Full fine-tuning needs gradients and optimizer state for
+          every parameter — tens of GB for even a 1.5B model. QLoRA freezes and quantizes the
+          base model to 4-bit and only trains ~1% of parameters as small adapters, which fits
+          an 8GB consumer GPU.</div>
+      </div>
+      <div class="qa-item">
+        <div class="qa-q">How did you evaluate a fine-tune with no ground-truth benchmark?</div>
+        <div class="qa-a">Built a fixed held-out prompt set spanning the model's intended
+          behaviors plus generic factual prompts as a forgetting check, and did structured
+          qualitative comparison — base vs. fine-tuned, same prompts. For anything
+          definitional (slang meanings), correctness could be checked directly against known
+          real-world definitions.</div>
+      </div>
+      <div class="qa-item">
+        <div class="qa-q">Tell me about a bug you found during this project.</div>
+        <div class="qa-a">The model gave a confidently wrong definition for "rizz" despite the
+          correct definition being in the training data. Root cause: it only appeared once or
+          twice in ~4,000 examples — not enough repetition for a low-rank adapter update to
+          override the base model's existing prior. Fixed by reinforcing with more examples in
+          varied phrasings, not just repeating the same sentence.</div>
+      </div>
+      <div class="qa-item">
+        <div class="qa-q">How do you know a fix actually generalized, rather than just
+          memorizing the training sentence?</div>
+        <div class="qa-a">Tested with phrasings never seen during training — e.g. trained on
+          "someone said i ate that outfit," tested with "did you eat that fit" — and confirmed
+          the model applied the concept correctly to the new phrasing, not just the exact
+          training sentence.</div>
+      </div>
+      <div class="qa-item">
+        <div class="qa-q">What would you do differently with more budget or time?</div>
+        <div class="qa-a">Use a larger base model or full LLM API for higher-quality synthetic
+          data generation at scale instead of hand-authoring; add an automated regression suite
+          (fixed prompt set + greedy decoding + string/semantic matching) instead of manual
+          read-throughs each round; consider RLHF/DPO-style preference data for the two-mode
+          behavior instead of only supervised fine-tuning.</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    genz-slang-model · Qwen2.5-1.5B-Instruct + QLoRA · huggingface.co/abhisekm/genz-slang-model
+  </footer>
+
+</div>

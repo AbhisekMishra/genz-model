@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+
+data/raw/
+data/processed/*.jsonl
+
+outputs/checkpoints/
+outputs/merged_model/
+outputs/adapter/*.safetensors
+outputs/adapter/*.bin
+
+*.log
+.env
+wandb/
