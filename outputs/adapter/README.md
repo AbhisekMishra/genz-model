@@ -44,7 +44,7 @@ A LoRA-adapter-only version of this model (apply on top of the base model yourse
 
 A mix of:
 - Synthetic examples covering casual persona chat, style-transfer pairs, roleplay/reactions, slang Q&A, and mixed-register edge cases.
-- Real slang term/definition/example data from Hugging Face Hub datasets (`MLBtrio/genz-slang-dataset` and related) used to ground vocabulary in authentic usage, and a capped sample from `Programmer-RD-AI/genz-slang-pairs-1k` for style-transfer phrasing patterns.
+- Real slang term/definition/example data from Hugging Face Hub datasets (`MLBtrio/genz-slang-dataset` and related) used to ground vocabulary in authentic usage, and a capped, deduped, programmatically-converted sample from `Programmer-RD-AI/genz-slang-pairs-1k` and `thesherrycode/gen-z-slangs-translation` for style-transfer phrasing patterns.
 
 ## Training procedure
 
@@ -55,7 +55,8 @@ QLoRA (4-bit NF4), LoRA rank 16 / alpha 32 on all attention and MLP projections,
 - Slang goes stale fast — this model reflects the vocabulary present in its training data at the time it was built, not real-time internet trends.
 - Not intended for factual reliability, safety-critical, or professional use — it's a hobby/persona project.
 - May inconsistently apply slang or occasionally revert to a more neutral register.
-- Slang Q&A accuracy varies by term. Common/central terms (rizz, no cap, mid, bussin, npc, sigma, canon event, and dozens more) were specifically verified and reinforced during training. Less common or ambiguous terms (ones that overlap with unrelated, more common word meanings) may still get inaccurate definitions — this is an inherent long-tail limitation of a small (1.5B parameter) model fine-tuned on a few thousand examples, not something that can be fully eliminated without much larger scale training data.
+- Slang Q&A accuracy varies by term. Common/central terms (rizz, no cap, mid, bussin, npc, sigma, canon event, booked and busy, and dozens more) were specifically verified and reinforced during training. Less common or ambiguous terms (ones that overlap with unrelated, more common word meanings) may still get inaccurate definitions — this is an inherent long-tail limitation of a small (1.5B parameter) model fine-tuned on a few thousand examples, not something that can be fully eliminated without much larger scale training data.
+- A few individual terms have proven unstable across retrains even after targeted reinforcement — notably **"sending me"** (should mean "made me laugh hard"), which has flipped between correct and incorrect across different training runs on the same dataset. Treat single-term slang definitions as informative but not authoritative.
 - Inherits any limitations/biases of the base model, `Qwen/Qwen2.5-1.5B-Instruct`.
 
 ## License

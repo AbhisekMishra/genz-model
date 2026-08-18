@@ -1,0 +1,1573 @@
+# GenZ vocabulary reference
+
+- ***s***: smile
+- ***w***: wink
+- **0.02**: My two cents worth
+- **10M**: Ten man
+- **10Q**: Thank you
+- **10X**: Thanks
+- **121**: One-to-one
+- **1337**: Leet, meaning ‘elite’
+- **143**: I love you
+- **1432**: I love you too
+- **14AA41**: One for all, and all for one
+- **182**: I hate you
+- **19**: Zero hand
+- **1CE**: Once
+- **1DR**: I wonder
+- **1NAM**: One in a million
+- **1TG, 2TG**: Meaning number of items needed for win
+- **1UP**: Meaning extra life
+- **2**: to
+- **20**: location
+- **2B**: To be
+- **2EZ**: Too easy
+- **2G2BT**: Too good to be true
+- **2M2H**: Too much too handle
+- **2MI**: Too much information
+- **2MOR**: Tomorrow
+- **2MORO**: Tomorrow
+- **2N8**: Tonight
+- **2NTE**: Tonight
+- **404**: I don’t know
+- **411**: information
+- **420**: Lets get high
+- **459**: I love you
+- **4AO**: For adults only
+- **4COL**: For crying out loud
+- **4EAE**: Forever and ever
+- **4EVA**: Forever
+- **4NR**: Foreigner
+- **4SALE**: For sale
+- **511**: Too much information
+- **555**: Sobbing, crying
+- **55555**: Crying your eyes out
+- **6Y**: Sexy
+- **7K**: Sick:-D Laugher
+- **81**: Hells Angels
+- **831**: I love you
+- **86**: Over
+- **88**: Bye-bye
+- **9**: Parent is watching
+- **;S**: GeHmm? What did you say?
+- **</3**: broken heart
+- **<3**: sideways heart
+- **<3333**: a bigger heart
+- **?**: I don’t understand what you mean
+- **?4U**: I have a question for you
+- **@ me**: Pronounced "at me." Used on social media when someone feels attacked by a post.
+- **@TEOTD**: At the end of the day
+- **^5**: High-five
+- **^^**: read message
+- **^URS**: Up yours
+- **A/N**: Author’s note
+- **A/S/L**: Age/sex/location
+- **A3**: Anytime, Anywhere, Anyplace
+- **AA**: Alcoholics Anonymous
+- **AAF**: As a matter of fact
+- **AAK**: Asleep at keyboard
+- **AAMOF**: As a matter of fact
+- **AAMOI**: As a matter of interest
+- **AAP**: Always a pleasure
+- **AAR**: At any rate
+- **AAS**: Alive and smiling
+- **AASHTA**: As always, Sheldon has the answer
+- **AATK**: Always at the keyboard
+- **AAYF**: As always, your friend
+- **ABBR**: Meaning abbreviation
+- **ABC**: Already been chewed
+- **ABD**: Already been done
+- **ABT**: About
+- **ABT2**: About to
+- **ABTA**: Good-bye
+- **ABU**: All bugged up
+- **AC**: Acceptable content
+- **ACC**: Anyone can come
+- **ACD**: ALT CONTROL DELETE
+- **ACDNT**: Accident
+- **ACE**: marijuana cigarette
+- **ACK**: Acknowledge
+- **ACPT**: Accept
+- **ACQSTN**: Acquisition
+- **ADAD**: Another day, another dollar
+- **ADBB**: All done, bye-bye
+- **ADD**: Address
+- **ADDY**: Address
+- **ADIH**: Another day in hell
+- **ADIP**: Another day in paradise
+- **ADMIN**: Administrator
+- **ADMINR**: Administrator
+- **ADN**: Any day now
+- **ADR**: Address
+- **AE**: Area effect
+- **AEAP**: As early as possible
+- **Af**: As fuck
+- **AFAIAA**: As far as I am aware
+- **AFAIC**: As far as I am concerned
+- **AFAIK**: As far as I know
+- **AFAIUI**: As far as I understand it
+- **AFAP**: As far as possible
+- **AFC**: Away from computer
+- **AFFA**: Angels Forever, Forever Angels
+- **AFJ**: April Fool’s joke
+- **AFK**: Away From Keyboard
+- **AFPOE**: A fresh pair of eyes
+- **AFZ**: Acronym Free Zone
+- **AGI**: agility
+- **AH**: At home
+- **AIAMU**: And I am a money’s uncle
+- **AIGHT**: Alright
+- **AIR**: As I remember
+- **AISB**: As it should be
+- **AISI**: As I see it
+- **AITR**: Adult in the room
+- **AKA**: Also known as
+- **ALCON**: All concerned
+- **ALOL**: Actually laughing out loud
+- **AMA**: Ask me anything (Reddit)
+- **AMAP**: As much as possible
+- **AMBW**: All my best wishes
+- **AML**: All my love
+- **AMOF**: As a matter of fact
+- **AO**: Anarchy Online
+- **AOC**: Available on cell
+- **AOE**: Area of effect
+- **AOM**: Age of majority
+- **AOTA**: All of the above
+- **AOYP**: Angel on your pillow
+- **APAC**: All praise and credit
+- **APP**: Application
+- **AQAP**: As quick or quiet as possible
+- **ARC**: Archive
+- **ARE**: Acronym rich environment
+- **ARG**: Argument
+- **ASAP**: As Soon As Possible
+- **ASIG**: And so it goes
+- **Asl**: Has two definitions. It can be used as a shortened version of "as hell." It can also be used as an acronym for age/sex/location.
+- **ASLA**: Age/sex/location/availability
+- **AT**: At your terminal
+- **ATB**: All the best
+- **Ate**: If you “ate” something, it means you executed it extremely well.
+- **ATEOTD**: At the end of the day
+- **ATK**: At The Keyboard
+- **ATM**: At The Moment
+- **ATSITS**: All the stars in the sky
+- **ATSL**: Along the same line
+- **AWC**: After awhile crocodile
+- **AWESO**: Awesome
+- **AWOL**: Away without leaving
+- **AYBABTU**: All your base are belong to us
+- **AYDY**: Are you done yet?
+- **AYEC**: At your earliest convenience
+- **AYOR**: At your own risk
+- **AYS**: Are you serious?
+- **AYSOS**: Are you stupid or something?
+- **AYT**: Are you there?
+- **AYTMTB**: And you’re telling me this because
+- **AYV**: Are you vertical?
+- **AYW**: As you were
+- **AZN**: Asian
+- **B**: Back
+- **B&**: Banned
+- **B-DAY**: Birthday
+- **B/C**: Because
+- **B/F**: Boyfriend
+- **B/G**: Background
+- **B2B**: Business-to-business
+- **B2C**: Business-to-consumer
+- **B2W**: Back to work
+- **B4**: Before
+- **B4N**: Bye For Now
+- **B8**: Bait
+- **B9**: Boss is watching
+- **BA**: Bad *a*
+- **Bae**: Short for “baby." Often a pet name for a crush or significant other.
+- **BAFO**: Best and final offer
+- **BAG**: Busting a gut
+- **BAK**: Back At Keyboard
+- **BAM**: Below average mentality
+- **BAMF**: Bad ass mother fucker
+- **Bang 30s**: To get in a physical altercation with someone.
+- **BAO**: Be aware of
+- **BAS**: Big ‘butt’ smile
+- **Based**: Originally meaning "to be your self and not care about how others view you", The word is now used to indicate an opinion or something that...
+- **BASIC**: Meaning anything mainstream
+- **BASOR**: Breathing a sigh of relief
+- **BAU**: Business as usual
+- **BAY**: Back at ya
+- **BB**: Be back
+- **BBC**: Big bad challenge
+- **BBIAB**: Be back in a bit
+- **BBIAF**: Be back in a few
+- **BBIAM**: Be back in a minute
+- **BBIAS**: Be back in a sec
+- **BBL**: Be Back Later
+- **BBN**: Bye, bye now
+- **BBQ**: Barbeque
+- **BBS**: Be Back Soon
+- **BBT**: Be back tomorrow
+- **BC**: Because
+- **BCNU**: Be seeing you
+- **BCO**: Big crush on
+- **BCOS**: Because
+- **BCOY**: Big crush on you
+- **BD**: Big deal
+- **BDAY**: Birthday
+- **BDN**: Big darn number
+- **Beat your face**: To apply makeup to the face.
+- **BEG**: Big evil grin
+- **BELF**: Blood Elf
+- **Benching**: Just like in sports, benching someone in dating means putting them to the side to date other people.
+- **Bet**: Yes, ok, "it's on."
+- **BF**: Boyfriend
+- **BF2**: Battlefield 2
+- **BFAW**: Best friend at work
+- **BFD**: Big freaking deal
+- **BFF**: Best friends forever
+- **BFFL**: Best friends for life
+- **BFFLNMW**: Best friends for life, no matter what
+- **BFFN**: Best friend for now
+- **BFG**: Big freaking grin
+- **BFN**: Bye For Now
+- **BG**: Big grin
+- **BGWM**: Be gentle with me
+- **BHL8**: Be home late
+- **BIB**: Boss is back
+- **BIBO**: Beer in, beer out
+- **BIC**: Butt in chair
+- **BIF**: Before I forget
+- **Big brain**: When you have done something silly making you feel like your own brain shrinks as you regret all of your life
+- **Big mad**: Term used to describe when someone is excessively angry.
+- **Big yikes**: Used to describe something embarrassing.
+- **BIH**: Burn in hell
+- **BIL**: Brother in law
+- **BIO**: I’m going to the bathroom
+- **BION**: Believe it or not
+- **BIOYA**: Blow it out your ass
+- **BIOYN**: Blow it out your nose
+- **BIS**: Best in slot
+- **BISFLATM**: Unverified
+- **BITMT**: But in the meantime
+- **BL**: Belly laugh
+- **BLNT**: Better luck next time
+- **Bloke**: Discord
+- **BM**: Bite me
+- **BM&Y**: Between me and you
+- **BME**: Based on my experience
+- **BMS**: Broke my scale, used when rating someone
+- **BN**: Bad news
+- **BOB**: Back off buddy
+- **Body count**: A euphemism for how many people one has had sex with. Initially referred to specifically sexual intercourse, but was expanded to include...
+- **BOE**: bind on equip
+- **BOHICA**: Bend over here it comes again
+- **BOL**: Best of luck
+- **BOLO**: Be on the look out
+- **BOM**: Because of mine
+- **Boomer**: Short for ‘baby boomer’, referring to older folks born 1946 to 1964 – but mostly used to clap back at pretty much anyone who’s older and...
+- **BOOMS**: Bored out of my skull
+- **Bop**: An excellent song or album.
+- **BOSMKL**: Bending over smacking my knee laughing
+- **BOT**: Back on topic
+- **Boujee**: A high-class/materialistic person.
+- **BOYF**: Boyfriend
+- **BPLM**: Big person little mind
+- **BR**: Best regards
+- **BRB**: Be Right Back
+- **BRBB**: Be right back bitch
+- **BRD**: Bored
+- **Breadcumbing**: When someone leads you on by flirting and making you feel special but without any intention to actually commit to a relationship.
+- **BRH**: Be right here
+- **BRNC**: Be right back, nature calls
+- **BRT**: Be Right There
+- **BSAAW**: Big smile and a wink
+- **BSF**: But seriously folks
+- **BSOD**: Blue screen of death
+- **BSTS**: Better safe than sorry
+- **BT**: Bite this
+- **BTA**: But then again
+- **BTDT**: Been there, done that
+- **BTW**: By The Way
+- **BTYCL**: Meaning ‘Bootycall’
+- **BUBU**: The most beautiful of women
+- **Buff**: changed and is now stronger
+- **BURN**: Used to reference an insult
+- **Bussin’**: Used to say something is good. Primarily used to describe food
+- **Bussy**: "Boy Pussy," i.e. a man's anus.
+- **BWL**: Bursting with laughter
+- **BYOB**: Bring your own beer
+- **BYOC**: Bring your own computer
+- **BYOD**: Bring your own device
+- **BYOH**: Bat you on the head
+- **BYOP**: paintball
+- **BYTM**: Better you than me
+- **C&G**: Chuckle & grin
+- **C/P**: Cross post
+- **C4N**: Ciao for now
+- **CAD**: Control + Alt + Delete
+- **Cakeday**: Birthday
+- **CAM**: Camera
+- **Camp**: Something that is ironically trendy. One might consider Crocs to be of the camp aesthetic.
+- **Cancel culture**: a form of shaming the actions or opinions of a public figure, company, or organization
+- **cap**: A lie or exaggeration
+- **Catch these hands**: Used to threaten physical combat with someone
+- **CB**: Coffee break
+- **CD9**: parents are around
+- **CFS**: Care for secret?
+- **CFY**: Calling for you
+- **Chad**: Used to describe your typical alpha male
+- **Cheugy**: Derogatory term for Millennials. Used when millennials are perceived to be excessively attempting to be trendy or stylish.
+- **CHK**: Check
+- **CIAO**: Good-bye
+- **CICO**: Coffee in, coffee out
+- **CID**: Crying in disgrace
+- **CLAB**: Crying like a baby
+- **Clapback**: Swift and witty response to an insult or critique
+- **Clapped**: To be completely and utterly destroyed.
+- **CLD**: Could
+- **CLK**: Click
+- **Clown**: People who are completely unintelligent.
+- **CM**: Call me
+- **CMAP**: Cover my ass partner
+- **CMB**: Call me back
+- **CMGR**: Community manager
+- **CMIIW**: Correct me if I’m wrong
+- **CMON**: Come on
+- **CNP**: Continued in next post
+- **COB**: Close of business
+- **COH**: City of Heroes
+- **COS**: Because
+- **CP**: Chat post
+- **CR8**: Create
+- **CRA CRA**: crazy
+- **CRAFT**: Can’t remember a freaking thing
+- **Cray**: crazy
+- **CRB**: Come right back
+- **CRBT**: Crying really big tears
+- **CRE8**: Create
+- **Cringe**: A response to embarrassment or social awkwardness
+- **Cringy**: anything that’s embarrassing or try-hard
+- **CRIT**: critical hit
+- **CRS**: Can’t remember stuff
+- **CRZ**: Crazy
+- **CSG**: Chuckle, snicker, grin
+- **CSL**: Can’t stop laughing
+- **CSS**: Counter-Strike Source
+- **CT**: Can’t talk
+- **CTC**: Care to chat?
+- **CTHU**: Cracking the heck up
+- **CTN**: Can’t talk now
+- **CTO**: Check this out
+- **CU**: See You
+- **CU2**: See you
+- **CUA**: See you around
+- **Cuffing**: "Cuffing" simply means to get into a relationship.
+- **CUL**: See you later
+- **CUL8R**: See You Later
+- **CULA**: See you later alligator
+- **CUMID**: See you in my dreams
+- **CURLO**: See you around like a donut
+- **CWD**: Comment when done
+- **CWOT**: Complete waste of time
+- **CWYL**: Chat with you later
+- **CX**: Correction
+- **CYA**: See You
+- **CYAL8R**: See you later
+- **CYE**: Check your e-mail
+- **CYEP**: Close your eyes partner
+- **CYO**: See you online
+- **D/L**: Download
+- **d00d**: Dude
+- **D2**: fingers
+- **D46?**: Down for sex?
+- **DA**: the
+- **Dad**: It just means to admire or look up to someone so much that you jokingly want to be adopted by them or have them as your second parent
+- **DAE**: Does anyone else?
+- **DAFUQ**: What the *Freak*?
+- **DAM**: Don’t annoy me
+- **Dank**: excellent or of very high quality
+- **DAoC**: Dark Age of Camelot
+- **DBAU**: Doing business as usual
+- **DBEYR**: Don’t believe everything you read
+- **DC**: Disconnect
+- **DD**: Dear daughter
+- **DDG**: Drop dead gorgeous
+- **Ded**: Used to describe something humorous to such an extent as to "kill you."
+- **DEEZ NUTZ**: A phrase used in online chat to annoy or frustrate those involved in the conversation.
+- **DEGT**: Dear daughter
+- **DERP**: stupid
+- **DF**: Don’t even go there
+- **DFL**: Dead freaking last
+- **DGA**: Don’t go anywhere
+- **DGAF**: Don’t give a freak
+- **DGT**: Don’t go there
+- **DGTG**: Don’t go there, girlfriend
+- **DGYF**: Dang, girl you fine
+- **DH**: Dear husband
+- **DHU**: support
+- **DIIK**: Darned if I know
+- **DIKU**: Do I know you?
+- **DILLIGAF**: Do I look like I give a freak?
+- **DILLIGAS**: Do I look like I give a sugar?
+- **DIS**: Did I say?
+- **DITYID**: Did I tell you I’m distressed?
+- **DIY**: Do it yourself
+- **DKDC**: Don’t know, don’t care
+- **DKP**: Dragon kill points
+- **DL**: Download
+- **DLBBB**: Don’t let the bed bugs bite
+- **DLTBBB**: Don’t let the bed bugs bite
+- **DM**: Doesn’t matter
+- **DMNO**: Dude Man No Offense
+- **DMY**: Don’t mess yourself
+- **DN**: Down
+- **DNC**: I do not understand
+- **DNR**: Dinner
+- **DNT**: Don’t
+- **DOE**: Daughter of Eve
+- **DORBS**: Adorable
+- **DOT**: Damage over time
+- **Downvote**: Voting negatively
+- **DPS**: Damage per second
+- **DQMOT**: Don’t quote me on this
+- **DR**: Didn’t read
+- **Drag**: If you drag someone, you're criticizing or making fun of them
+- **Drip**: Another way of saying swag, drip is a term for a cool or sexy trend or style.
+- **DS**: Dear  son
+- **DTR**: Define the relationship
+- **DTRT**: Do the right thing
+- **DTS**: Don’t think so
+- **DTTD**: Don’t touch that dial
+- **DUPE**: Duplicate
+- **DUR**: Do you remember?
+- **DV8**: Deviate
+- **DW**: Dear  wife
+- **DWF**: Divorced white female
+- **DWM**: Divorced white male
+- **DXNRY**: Dictionary
+- **DYFI**: Did you find it?
+- **DYFM**: Dude, you fascinate me
+- **DYJHIW**: Don’t you just hate it when…?
+- **DYNWUTB**: Do you know what you are talking about?
+- **DYOR**: Do your own research
+- **E**: Ecstasy
+- **e-boy**: similar to emo or goth culture, but they use the internet to express themselves.
+- **e-girl**: similar to emo or goth culture, but they use the internet to express themselves.
+- **E1**: Everyone
+- **E123**: Easy as one, two, three
+- **E2EG**: Ear to ear grin
+- **EAK**: Eating at keyboard
+- **EBKAC**: Error between keyboard and chair
+- **ED**: Erase display
+- **EF4T**: Effort
+- **EG**: Evil grin
+- **EI**: Eat it
+- **EIP**: Editing in progress
+- **ELI5**: Explain like I’m 5
+- **EM**: E-mail
+- **EMA**: E-mail address
+- **EMBAR**: Embarassing
+- **EMFBI**: Excuse me for butting in
+- **EMSG**: E-mail message
+- **ENUF**: Enough
+- **EOD**: End of day
+- **EOL**: End of lecture
+- **EOM**: End of message
+- **EOS**: End of show
+- **EOT**: End of transmission
+- **EQ**: EverQuest
+- **ERP**: Erotic Role-Play
+- **ERS2**: are you
+- **ES**: Erase screen
+- **ESAD**: die
+- **ETA**: Estimated time of arrival
+- **EVA**: Ever
+- **EVO**: Evolution
+- **EWG**: teasing
+- **EWI**: Emailing while intoxicated
+- **Extra**: Someone who is out there and enjoys taking things to a new level of flamboyance.
+- **EYC**: Excitable, yet calm
+- **EZ**: Easy
+- **EZY**: Easy
+- **F**: Meaning female
+- **F2F**: Face to face
+- **F2P**: Free to play
+- **F4F**: Follow for follow
+- **FAAK**: Falling asleep at keyboard
+- **FAB**: Fabulous
+- **Facepalm**: embarrassment or frustration
+- **Facts**: The truth
+- **FAF**: Funny as freak
+- **Fam**: Fam is a shorter word for family, but don't be fooled– it can be used to describe your friends or the way Millennials use "bro".
+- **FAQ**: Frequently Asked Questions
+- **FAY**: Freak all you
+- **FB**: Facebook
+- **FBB**: Facebook buddy
+- **FBC**: Facebook chat
+- **FBF**: Flashback Friday
+- **FBFR**: FaceBook friend
+- **FBM**: Fine by me
+- **FBO**: Facebook official
+- **FBOW**: For better or worse
+- **FC**: Fingers Crossed
+- **FCOL**: For crying out loud
+- **FC’INGO**: For crying out loud
+- **Feelsbadman**: feel negative.
+- **Feelsbatman**: to the extreme
+- **Feelsgoodman**: to feel positive.
+- **FEITCTAJ**: Freak them if they can’t take a joke
+- **FF**: Follow Friday
+- **FFA**: Free for all
+- **Ffs**: For fuck sake
+- **FICCL**: Frankly I couldn’t care a less
+- **FIF**: Freak I’m funny
+- **FIIK**: Freaked if I know
+- **FIIOOH**: Forget it, I’m out of here
+- **FIL**: Father in law
+- **FIMH**: Forever in my heart
+- **Finesse**: Finesse means to trick or manipulate someone or a situation in order to get what you want.
+- **Finna**: shortened term for saying "I'm going to"
+- **Finsta**: A second Instagram account where someone can post things that they’re too afraid to post on their main account.
+- **FISH**: First in, still here
+- **FITB**: Fill in the blank
+- **Flex**: Used to describe someone showing off, gloating, or parading around.
+- **FML**: Freak My Life
+- **FOAD**: Freak off and die
+- **FOAF**: Friend of a friend
+- **FOMC**: Falling off my chair
+- **FOMCL**: Falling off my chair laughing
+- **fomo**: Fear of missing out
+- **Fr**: For real
+- **FRT**: For real though
+- **FTBOMH**: From the bottom of my heart
+- **FTFY**: Fixed that for you
+- **FTL**: For the loss
+- **FTW**: For the win
+- **FU**: Freak you
+- **FUBAR**: Fouled up beyond all recognition
+- **FUBB**: Fouled up beyond belief
+- **FUD**: Face up deal
+- **FUTAB**: Feet up, take a break
+- **FW**: Forward
+- **FWB**: Friend with benefits
+- **FWIW**: For What It's Worth
+- **FWM**: Fine with me
+- **FWP**: First world problems
+- **FYA**: For your amusement
+- **FYE**: Fire, something that is cool
+- **FYEO**: For your eyes only
+- **FYI**: For Your Information
+- **G**: Grin
+- **G+**: Google+
+- **G.O.A.T**: The greatest of all time
+- **G/F**: Girlfriend
+- **G2CU**: Good to see you
+- **G2G**: Got to go
+- **G2GICYAL8ER**: Got to go I’ll see you later
+- **G2R**: Got to run
+- **G2TU**: Got to tell you
+- **G4C**: Going for coffee
+- **G9**: Genius
+- **GA**: Go ahead
+- **GAC**: Get a clue
+- **GAFC**: Get a freaking clue
+- **Gagged**: To be “gagged” is to be shocked, amazed, et cetera.
+- **GAL**: Get A Life
+- **GANK**: Meaning a player ambush or unfair player kill
+- **GAS**: Got a second?
+- **Gaslighting**: refers to a form of psychological manipulation in which a significant other makes you feel crazy or wrong, even when unjustified
+- **Gaup**: Money, and lots of it.
+- **GB**: Goodbye
+- **GBTW**: Get back to work
+- **GBU**: God bless you
+- **GD**: Good
+- **GD/R**: Grinning, ducking, and running
+- **GDR**: Grinning, ducking, and running
+- **GF**: Girl friend
+- **GFI**: Go for it
+- **GFN**: Gone for now
+- **GG**: Good Game
+- **GGA**: Good game, all
+- **GGE1**: Good game, everyone
+- **GGMSOT**: Gotta get me some of that
+- **GGOH**: Gotta Get Outa Here
+- **GGP**: Got to go pee
+- **GGU2**: Good game, you too
+- **GH**: Good hand
+- **Ghosting**: common amongst the earlier talking stages of a relationship. Ghosting someone means you start ignoring them or stop texting them back.
+- **GIAR**: Give it a rest
+- **GIC**: Gift in crib
+- **GIGO**: Garbage in, garbage out
+- **GIRL**: Guy in real life
+- **GJ**: Good job
+- **GL**: Good luck
+- **GL/HF**: Good luck, have fun
+- **GL2U**: Good luck to you
+- **GLA**: Good luck all
+- **GLE**: Good luck everyone
+- **GLE1**: Good luck everyone
+- **GLNG**: Good luck next game
+- **Glow up**: a makeover or transformation from bad to good.
+- **Glow-up**: A major improvement in one's self, usually an improvement in appearance, confidence, and style. Frequently used in a context relating to...
+- **GMBA**: Giggling my butt off
+- **GMTA**: Great minds think alike
+- **GMV**: Got my vote
+- **GN**: Good Night
+- **GNA**: Good night all
+- **GNE1**: Good night everyone
+- **GNIGHT**: Good night
+- **GNITE**: Good night
+- **GNSD**: Good night, sweet dreams
+- **GOAT**: Greatest of all Times
+- **GOI**: Get over it
+- **GOL**: Giggling out loud
+- **GOMB**: Get off my back
+- **GPOY**: Gratuitous picture of yourself
+- **GR&D**: Grinning, running and ducking
+- **GR8**: Great!
+- **GRATZ**: Congratulations
+- **GRL**: Girl
+- **GRWG**: Get right with God
+- **GS**: Good shot
+- **GT**: Good try
+- **GTFO**: Get the *freak* out
+- **GTFOH**: Get the *freak* outta here
+- **GTG**: Got to go
+- **GTM**: Giggling to myself
+- **GTRM**: Going to read mail
+- **GTSY**: Great to see you
+- **Gucci**: term born out of the popularity of the high-end fashion brand. These days, it means that something is good
+- **GUD**: Good
+- **GWHTLC**: Glad we had this little chat
+- **H**: Hug
+- **H&K**: Hugs & kisses
+- **H-BDAY**: Happy Birthday
+- **H-FDAY**: Happy Father’s Day
+- **H-MDAY**: Happy Mother’s Day
+- **H2CUS**: Hope to see you soon
+- **H8**: Hate
+- **H8TTU**: Hate to be you
+- **HAG1**: Have a good one
+- **HAGN**: Have a good night
+- **HAGO**: Have a good one
+- **HAK**: Hug and kiss
+- **HALP**: Help
+- **HAND**: Have a nice day
+- **HAU**: How about you?
+- **HAWT**: Have a wonderful day
+- **HB**: Hurry back
+- **HBD**: Happy birthday
+- **HBU**: How about you?
+- **Heather**: any lovely person who seems like they’re the main character, evoking as much admiration as jealousy
+- **HF**: Have fun
+- **HFAC**: Holy flipping animal crackers
+- **HHIS**: Head hanging in shame
+- **HIFW**: How I felt when
+- **High-key**: the opposite of being low-key.
+- **Hits different**: Something that is better in a peculiar manner
+- **HL**: Half Life
+- **HLA**: Hola
+- **HMU**: Hit me up
+- **HNL**: Hole nother level
+- **HOAS**: Hold on a second
+- **Hot girl summer**: Hands down one of the biggest slang terms to hit pop culture in the summer of 2019, hot girl summer is about women having a good time and...
+- **HP**: Hit points
+- **HRU**: How are you?
+- **HTH**: Hope this helps
+- **HUB**: Head up butt
+- **HUYA**: Head up your butt
+- **HV**: Have
+- **HVH**: Heroic Violet Hold
+- **HW**: Homework
+- **HYFR**: Hell yeah, Freaking right!
+- **I can’t even**: an expression commonly used when someone is feeling either so overjoyed or exasperated that they can’t even find the right words; depending...
+- **I oop**: Used to express shock, embarrassment, and or amusement.
+- **I2**: I too
+- **IA8**: I already ate
+- **IAAA**: I am an accountant
+- **IAAD**: I am a doctor
+- **IAAL**: I am a lawyer
+- **IAC**: In any case
+- **IAE**: In any event
+- **IANAC**: I am not a crook
+- **IANAL**: I am not a lawyer
+- **IAO**: I am out
+- **IB**: I’m back
+- **IC**: I See
+- **ICAM**: I couldn’t agree more
+- **ICBW**: It could be worse
+- **ICEDI**: I can’t even discuss it
+- **ICFILWU**: I could fall in love with you
+- **ick**: used to express disgust at something unpleasant or offensive.
+- **ICQ**: I Seek you (also a chat program)
+- **ICYMI**: In case you missed it
+- **IDBI**: I don’t believe it
+- **IDC**: I don't care
+- **IDGAF**: I don’t give a freak
+- **IDK**: I don’t know
+- **IDTS**: I don’t think so
+- **IDUNNO**: I don’t know
+- **IFYP**: I feel your pain
+- **IG**: Instagram
+- **IG2R**: I got to run
+- **IGHT**: I got high tonight
+- **IGN**: I’ve got nothing
+- **IGP**: I got to go pee
+- **IHNI**: I have no idea
+- **IIIO**: Intel inside, idiot outside
+- **IIRC**: If I remember correctly
+- **IK**: I know
+- **IKR**: I know, right?
+- **ILBL8**: I’ll be late
+- **ILU**: ILU: I Love You
+- **ILUM**: I love you man
+- **ILY**: I love you
+- **ILYSM**: I love you so much
+- **IM**: Instant message
+- **IMAO**: In my arrogant opinion
+- **IMHO**: In My Honest/Humble Opinion
+- **ImL**: I love you
+- **IMNSHO**: In my not so humble opinion
+- **IMO**: In my opinion
+- **IMOH**: In my humble opinion
+- **IMS**: I am sorry
+- **IMSB**: I am so bored
+- **IMTM**: I am the man
+- **IMU**: I miss you
+- **INAL**: I’m not a lawyer
+- **INC**: incoming
+- **Inspoo**: Inspiration
+- **INV**: Invite
+- **IOMH**: In over my head
+- **Ion**: I don’t
+- **IOW**: In Other Words
+- **IRL**: In Real Life
+- **IRMC**: I rest my case
+- **ISLY**: I still love you
+- **ISO**: In search of
+- **ITAM**: It’s The Accounting, Man
+- **ITT**: In This Thread
+- **ITYK**: I thought you knew
+- **IUSS**: If you say so
+- **IWALU**: I will always love you
+- **IWAWO**: I want a way out
+- **IWIAM**: Idiot wrapped in a moron
+- **IWSN**: I want sex now
+- **IYKWIM**: If you know what I mean
+- **Iykyk**: Acronym for "If you know, you know." Used to describe inside jokes.
+- **IYO**: In your opinion
+- **IYQ**: I like you
+- **IYSS**: If you say so
+- **I’m weak**: Similar to "I'm dead", this is just another term to use when you find something hilarious
+- **j00**: You
+- **j00r**: Your
+- **JAC**: Just a second
+- **JAM**: Just a minute
+- **JAS**: Just a second
+- **JC (J/C)**: Just checking
+- **JDI**: Just do it
+- **JELLY**: jealous
+- **JFF**: Just for fun
+- **JFGI**: Just freaking Google it
+- **JIC**: Just in case
+- **JJ (J/J)**: Just joking
+- **JJA**: Just joking around
+- **JK**: Just kidding
+- **JK (J/K)**: Just kidding
+- **JLMK**: Just let me know
+- **JMO**: Just my opinion
+- **JP**: Just playing
+- **JT (J/T)**: Just teasing
+- **JTLYK**: Just to let you know
+- **JV**: Joint venture
+- **JW**: Just wondering
+- **K**: Okay
+- **k/b**: Keyboard
+- **K8T**: Katie
+- **Karen**: A stereotype for women who behave extremely unreasonably and childish – especially towards service staff or people of colour – and tend to...
+- **KB**: Keyboard
+- **KDFU**: Cracking K
+- **KEWL**: Cool
+- **KEYA**: I will key you later
+- **KEYME**: Key me when you get in
+- **KFY**: Kiss for you
+- **KIA**: Know it all
+- **KIR**: Keep it real
+- **KISS**: Keep It Simple, Stupid
+- **KIT**: Keep in touch
+- **KK**: Knock, knock
+- **KMA**: Kiss my ass
+- **KMK**: Kiss my keister
+- **KMS**: Killing myself
+- **KMT**: Kiss my tushie
+- **KNIM**: Know what I mean?
+- **KNOW**: knowledge
+- **KOC**: Kiss on cheek
+- **KOL**: Key opinion leader
+- **Koreaboo**: Someone obsessed with Korean culture
+- **KOS**: Kid over shoulder
+- **KOTC**: Kiss on the cheek
+- **KOTD**: Kicks of the day
+- **KOTL**: Kiss on the lips
+- **KOW**: Knock on wood
+- **KPC**: Keeping parents clueless
+- **KS**: Kill then steal
+- **KSC**: Kind of, sort of chuckle
+- **KT**: Katie
+- **KUTGW**: Keep up the good work
+- **KYS**: Kill yourself
+- **L**: Shorthand for loss/losing
+- **L+ratio**: Response to a comment or action on the internet that is particularly bad.
+- **L2G**: Like to go?
+- **L2K**: Like to come
+- **L2P**: Learn to play
+- **l33t**: Leet, meaning ‘elite’
+- **L4L**: Like for like
+- **L8R**: Later
+- **L8RG8R**: Later, gator
+- **LAB**: Life is a bitch
+- **LBAY**: Laughing back at you
+- **LBS**: Laughing, but serious
+- **LBVS**: Laughing, but very serious
+- **LD**: Later, dude
+- **LDO**: Like, duh obviously
+- **LDR**: Long Distance Relationship
+- **LEMENO**: Let me know
+- **LERK**: Leaving easy reach of keyboard
+- **LFD**: Left for day
+- **LFG**: Looking for group
+- **LFM**: Looking for more
+- **LGH**: Lets get high
+- **LH6**: Lets have sex
+- **LHM**: Lord help me
+- **LHO**: Laughing head off
+- **LHSX**: Lets have sex
+- **LI**: LinkedIn
+- **LIC**: Like I care
+- **LIK**: Meaning liquor
+- **LIMT**: Laugh in my tummy
+- **Lit**: Colloquially: "Enlightened", "Hot", "Fire." The new hotness; something remarkable, interesting, fun or amusing. Generally positive.
+- **LLGB**: Love, later, God bless
+- **LLS**: Laughing like silly
+- **LMAO**: Laugh My A.. Off
+- **LMBO**: Laughing my butt off
+- **LMFAO**: Laughing my freaking ass off
+- **LMIRL**: Lets meet in real life
+- **LMK**: Let me know
+- **LMMFAO**: Laughing out loud
+- **LMNK**: Leave my name out
+- **LMS**: Like my status
+- **LNT**: Meaning lost in translation
+- **LOA**: List of acronyms
+- **LOL**: Laughing Out Loud
+- **LOLH**: Laughing out loud hysterically
+- **LOLO**: Lots of love
+- **LOLWTF**: Laughing out loud
+- **LOTI**: Laughing on the inside
+- **LOTR**: Lord of The Rings
+- **Low key**: Secretly
+- **LQTM**: Laughing quietly to myself
+- **LSHMBH**: Laugh so hard my belly hurts
+- **LSV**: Language, sex and violence
+- **LTD**: Living the dream
+- **LTLWDLS**: Let’s twist like we did last summer
+- **LTNS**: Long Time No See
+- **LTOD**: Laptop of death
+- **LTS**: Laughing to self
+- **LULT**: Love you long time
+- **LULZ**: Meaning joke, or for laughs
+- **LVM**: Left voice mail
+- **LWOS**: Laughing without smiling
+- **LY**: Love ya
+- **LYLAS**: Love you like a sis
+- **LYLC**: Love you like crazy
+- **LYSM**: Love you so much
+- **M$**: Microsoft
+- **M8**: Mate
+- **Main character**: a phrase used to describe someone who is generally well-liked and charismatic. It can also be used to describe someone when they're making...
+- **MB**: Mamma’s boy
+- **MBS**: Mom behind shoulder
+- **MC**: Merry Christmas
+- **MDIAC**: My Dad is a cop
+- **MEGO**: My eyes glaze over
+- **MEH**: shrugging shoulders
+- **MEHH**: sighing
+- **MEZ**: mesmerize
+- **MFI**: Mad for it
+- **MFW**: My face when
+- **MGB**: May God bless
+- **MGMT**: Management
+- **MHOTY**: My hat off to you
+- **Mid**: Short for mediocre
+- **MIRL**: Me in real life
+- **MISS.3**: 3-year old daughter
+- **MKAY**: Mmm, okay”
+- **MLM**: give the middle finger
+- **MM**: Sister
+- **MMK**: Meaning okay?
+- **MNC**: Mother nature calls
+- **MNSG**: message in Spanish
+- **MOD**: Moderator
+- **Mom**: It just means to admire or look up to someone so much that you jokingly want to be adopted by them or have them as your second parent
+- **MOMBOY**: Mamma’s boy
+- **MOO**: My own opinion
+- **MOOS**: Member of the opposite sex
+- **MORF**: Male or female?
+- **MOS**: Mother over shoulder
+- **MOSS**: Member of same sex
+- **MP**: Mana points
+- **MR.3**: 3-year old son
+- **MRT**: Modified ReTweet
+- **MRW**: My reaction when
+- **MSG**: Message
+- **MTE**: My Thoughts Exactly
+- **MTF**: More to follow
+- **MTFBWU**: May the force be with you
+- **MU**: Miss you
+- **MUAH**: Multiple unsuccessful attempts at humor
+- **MUSM**: Miss you so much
+- **MWAH**: kiss
+- **MYO**: Mind your own business
+- **MYOB**: Mind your own business
+- **n00b**: Newbie
+- **N1**: Nice one
+- **N2M**: Nothing too much
+- **NADT**: Not a darn thing
+- **NALOPKT**: Not a lot of people know that
+- **NANA**: Not now, no need
+- **naur**: means no or know. It functions as a more dramatic way of saying "no" or "know," and sounds like "no" with an Australian accent.
+- **NBD**: No big deal
+- **NBFAB**: No bad for a beginner
+- **NC**: Nice crib
+- **ND**: Nice double
+- **NE**: Any
+- **NE1**: Anyone
+- **NERF**: Changed and is now weaker
+- **NFM**: None for me
+- **NFS**: Need for Speed
+- **NFW**: No *freaking* way
+- **NFWS**: Not for work safe
+- **NGL**: Not Gonna Lie
+- **NH**: Nice hand
+- **NIFOC**: Naked in front of computer
+- **NIGI**: Now I get it
+- **NIMBY**: Not in my back yard
+- **NIROK**: Not in reach of keyboard
+- **NLT**: No later than
+- **NM**: Nothing much
+- **NMH**: Not much here
+- **NMJC**: Nothing much, just chilling
+- **NMU**: Not much, you?
+- **NO1**: No one
+- **NOOB**: someone who is bad at online games
+- **Not you**: Used to condemn or poke fun at someone or something.
+- **NOWL**: knowledge
+- **NOYB**: None of your business
+- **NP**: No problem
+- **NPC**: Someone who cannot think for themselves and/or has no or little control over their own life. Someone that is ready to agree with popular...
+- **NQT**: Newly qualified teacher
+- **NR**: Nice roll
+- **NRN**: No Reply Necessary
+- **NS**: Nice score
+- **NSA**: No strings attached
+- **NSFL**: Not safe for life
+- **NSFW**: Not safe for work
+- **NSISR**: Not sure if spelled right
+- **NT**: Nice try
+- **NTHING**: Nothing
+- **NTS**: Note to self
+- **NVM**: Never mind
+- **NVR**: Never
+- **NW**: No way
+- **NWO**: No way out
+- **O**: Opponent
+- **O4U**: Only for you
+- **OA**: Online auctions
+- **OATUS**: On a totally unrelated subject
+- **OB**: Oh baby
+- **OBV**: Obviously
+- **OFC**: Of course
+- **OG**: Original gangster
+- **OGIM**: Oh God, it’s Monday
+- **OH**: Overheard
+- **OHHEMMGEE**: Oh My God
+- **OI**: Operator indisposed
+- **OIB**: Oh, I’m back
+- **OIC**: Oh I See
+- **OJ**: Only joking
+- **OK boomer**: Derogatory term directed towards Baby Boomers. Used as a response when boomers are deemed to be out of touch with younger generations
+- **OL**: Old lady
+- **OLL**: Online love
+- **OM**: Old man
+- **OMAA**: Oh, my aching butt
+- **OMDB**: Over my dead body
+- **OMFG**: Oh my freaking God
+- **OMG**: Oh my God
+- **OMGYG2BK**: Oh my God, you got to be kidding
+- **OMGYS**: Oh my gosh you suck
+- **OMS**: On my soul
+- **OMW**: On my way
+- **On god**: Short for "I swear to god." Means that a person's statement is frank.
+- **ONL**: Online
+- **OO**: Over and out
+- **OOC**: Out of character
+- **OOH**: Out of here
+- **OOMF**: One of my followers
+- **OOTD**: One of these days
+- **OOTO**: Out of the office
+- **OP**: On phone
+- **ORLY**: Oh really?
+- **OS**: Operating system
+- **OT**: Off topic
+- **OTB**: Off to bed
+- **OTFL**: On the floor laughing
+- **OTL**: Out to lunch
+- **OTOH**: On the other hand
+- **OTP**: On the phone
+- **OTT**: Over the top
+- **OTTOMH**: Off the top of my head
+- **OTW**: Off to work
+- **OVA**: Over
+- **OYO**: On your own
+- **P**: Partner
+- **P2P**: Parent to parent
+- **P911**: Parents coming into room alert
+- **PAP**: Post a picture
+- **PAT**: patrol
+- **PAW**: Parents are watching
+- **PBOOK**: Phonebook
+- **PC**: Player character
+- **PCM**: Please call me
+- **PDA**: Personal display of affection
+- **PDH**: Pretty darn happy
+- **PDQ**: Pretty darn quick
+- **PDS**: Please don’t shoot
+- **PEEPS**: People
+- **Periodt**: Used to add emphasis to something
+- **PFT**: Pretty *freaking* tight
+- **PIC**: Picture
+- **Pick me girl**: Pick me girls are the type of girls who claim that they are nothing like other girls, in order to get attention from guys (also see...
+- **Pink flags**: Based on the idea of red flags, pink flags are on step down. They aren’t huge warning signals that something is wrong, but they can hint...
+- **PIP**: laughing hard
+- **PIR**: Parents in room
+- **PISS**: Put in some sugar
+- **PITA**: Pain In The Ass
+- **PKMN**: Pokemon
+- **PL8**: Plate
+- **PLD**: Played
+- **PLMK**: Please let me know
+- **PLS**: Please
+- **PLU**: People like us
+- **PLZ**: Please
+- **PLZTLME**: Please tell me
+- **PM**: Private Message
+- **PMFI**: Pardon me for interrupting
+- **PMFJI**: Pardon me for jumping in
+- **PMSL**: Pee myself laughing
+- **POAHF**: Put on a happy face
+- **Poggers**: an expression that conveys excitement
+- **POIDH**: it didn’t happen
+- **POS**: Parent over shoulder
+- **POT**: potion
+- **POTD**: Photo of the day
+- **POV**: Point of view
+- **PPL**: People
+- **PPU**: Pending pick-up
+- **PRESH**: Precious
+- **PROBS**: Probably
+- **PROGGY**: computer program
+- **PROLLY**: Probably
+- **PRON**: pornography
+- **PRT**: Party
+- **PRW**: Parents Are Watching
+- **PSA**: Public Service Announcement
+- **PSOS**: Parent standing over shoulder
+- **PSP**: Playstation Portable
+- **PST**: Please send tell
+- **PTFO**: Pass the freak out
+- **PTIYPASI**: Put that in your pipe and smoke it
+- **PTL**: Praise the Lord
+- **PTMM**: Please tell me more
+- **PTO**: Paid time off
+- **PU**: That stinks!
+- **PUG**: Pick up group
+- **PUKS**: Pick up kids
+- **PVE**: Player vs enemy
+- **PVP**: Player versus player
+- **PWN**: own
+- **PXT**: Please explain that
+- **PYT**: Pretty young thing
+- **PZ**: Peace
+- **PZA**: Pizza
+- **Q**: Queue
+- **Q4U**: I have a question for you
+- **Q_Q**: crying eyes
+- **QC**: Quality control
+- **QFE**: Question for everyone
+- **QFI**: Quoted for idiocy
+- **QFT**: Quoted for truth
+- **QIK**: Quick
+- **QL**: Quit laughing
+- **QOTD**: Quote of the day
+- **QPSA?**: Que Pasa?
+- **QQ**: Quick question
+- **QSL**: Reply
+- **QSO**: Conversation
+- **QT**: Cutie
+- **QTPI**: Cutie pie
+- **R**: are
+- **R8**: Rate
+- **Ratio**: When an internet post has a comparable number of comments/replies to "likes", which is usually indicative of a poor reception.
+- **RBAY**: Right back at you
+- **Rent free**: To be constantly thinking or upset about something.
+- **RFN**: Right freaking now
+- **RGR**: I agree, I understand
+- **RHIP**: Rank has its privileges
+- **RIP**: Rest in peace
+- **Rizz**: One's courtship/seduction skills
+- **RL**: Real life
+- **RLY**: Really
+- **RME**: Rolling my eyes
+- **RMLB**: Read my lips baby
+- **RMMM**: Read my mail man
+- **ROFL**: Rolling On The Floor Laughing
+- **ROFLCOPTER**: Rolling on floor laughing and spinning around
+- **ROFLMAO**: Rolling on the floor, laughing my butt off
+- **ROFLOL**: Rolling On The Floor Laughing Out Loud
+- **ROTFL**: Rolling on the floor laughing
+- **ROTFLMAO**: Rolling On The Floor Laughing My Ass Off
+- **ROTFLUTS**: Rolling on the floor laughing unable to speak
+- **RS**: Runescape
+- **RSN**: Real soon now
+- **RT**: Roger that
+- **RTBS**: Reason to be single
+- **RTFM**: Read the freaking manual
+- **RTFQ**: Read the freaking question
+- **RTHX**: Thanks for the RT
+- **RTMS**: Read the manual, stupid
+- **RTNTN**: Retention
+- **RTRCTV**: Retroactive
+- **RTRMT**: Retirement
+- **RTSM**: Read the stupid manual
+- **RTWFQ**: Read the whole *freaking* question
+- **RU**: Are you?
+- **RUMOF**: Are you male or female?
+- **RUOK**: Are you okay?
+- **RUT**: Are you there?
+- **RW**: Real world
+- **RX**: Regards
+- **RYB**: Read your Bible
+- **RYO**: Roll your own
+- **RYS**: Read your screen
+- **S2R**: Send to receive
+- **S2S**: Sorry to say
+- **S4L**: Spam for life
+- **SAL**: Such a laugh
+- **Salty**: Used when someone feels jealous
+- **SAT**: Sorry about that
+- **SAVAGE**: shockingly careless expression
+- **Say less**: A shortened version of "say no more."
+- **SB**: Snap back
+- **SBIA**: standing back in amazement
+- **SBT**: Sorry about that
+- **SC**: Stay cool
+- **SD**: Sweet dreams
+- **SDMB**: Sweet dreams, my baby
+- **SELFIE**: A photo that is taken of oneself
+- **Sending me**: Another term to use if you find something particularly funny.
+- **SENPAI**: someone older than you
+- **SEO**: Search engine optimization
+- **SETE**: Smiling Ear-to-Ear
+- **SFAIK**: So far as I know
+- **SH**: Same here
+- **SH^**: Shut up
+- **Shade**: Diss. Also: throwing shade; being shady.
+- **Sheesh**: To praise someone when they are doing something good. The one being praised is to do the "ice in my veins" pose popularized by Basketball...
+- **SHID**: Slapping head in disgust
+- **SHIP**: wishing two people were in a relationship
+- **Shook**: Surprised or shocked.
+- **SICNR**: Sorry, I could not resist
+- **SIG2R**: Sorry, I got to run
+- **SIHTH**: Stupidity is hard to take
+- **Simp**: Sycophancy, being overly affectionate in pursuit of a sexual relationship
+- **SIMYC**: Sorry I missed your call
+- **Sip tea**: Gossiping (spilling the tea)
+- **SIR**: Strike it rich
+- **Sis**: A shortened version of "sister", this term is typically used to greet a friend, no matter their gender.
+- **SIT**: Stay in touch
+- **SITD**: Still in the dark
+- **Situationship**: Describes two people who are not officially dating but who have feelings for each other
+- **SJW**: Social justice warrior
+- **SK8**: Skate
+- **SK8NG**: Skating
+- **SK8R**: Skater
+- **SK8RBOI**: Skater Boy
+- **Skill issue**: used to blame someone for their own loss.
+- **Sksksk**: Used to convey happiness/laughter
+- **SLAP**: Sounds like a plan
+- **Slaps**: Used to refer to something (typically music) that is perceived to be good.
+- **Slay**: To do something well.
+- **Sleeping on**: When you "sleep on" something, you overlook or underestimate it
+- **SM**: Social media
+- **Smash**: means to have casual sex
+- **SMAZED**: Smoky haze
+- **SMEXI**: sexy Mexican
+- **Smh**: Shake my head’. Another one for texting, smh usually signifies exasperation
+- **SMHID**: Scratching my head in disbelief
+- **Smol**: Something that is small, and in most cases exceptionally adorable.
+- **Snack**: a person that you find attractive
+- **SNAFU**: Situation normal all fouled up
+- **Snatched**: If someone is looking snatched, they look really good, particularly their outfit
+- **SNERT**: Snot nosed egotistical rude teenager
+- **SNR**: Streaks and Recents
+- **SO**: Significant other
+- **SOAB**: Son of a bitch
+- **SOL**: Sooner or later
+- **SOMY**: Sick of me yet?
+- **SorG**: Straight or Gay?
+- **SOS**: Meaning help
+- **SOT**: Short of time
+- **SOTMG**: Short of time, must go
+- **SOWM**: Someone with me
+- **SPK**: Speak
+- **SPST**: Same place, same time
+- **SPTO**: Spoke to
+- **SQ**: Square
+- **SRSLY**: Seriously
+- **SRY**: Sorry
+- **SS**: So sorry
+- **SSDD**: Some stuff, different day
+- **SSIF**: So stupid it’s funny
+- **SSINF**: So stupid it’s not funny
+- **ST&D**: Stop texting and drive
+- **Stan**: Supporting something. Specifically used in some cases to the idolatry support of personalities.
+- **STATS**: Your sex and age
+- **STFU**: Shut the freak up
+- **STR8**: Straight
+- **Sturdy**: used to describe someone's dance moves. It's usually used in the phrase "get sturdy", which means that someone is performing a specific...
+- **STW**: Search the Web
+- **SU**: Shut up
+- **SUITM**: See you in the morning
+- **SUL**: See you later
+- **SUP**: What’s up?
+- **Sus**: Short for suspect/suspicious.
+- **SUTH**: So use(d) to haters
+- **SUX**: it sucks
+- **SUYF**: Shut up you fool
+- **SWAG**: free stuff and giveaways from tech tradeshows
+- **SWAK**: Sealed with a kiss
+- **SWALK**: Sealed with a loving kiss
+- **SWAT**: Scientific wild butt guess
+- **SWL**: Screaming with laughter
+- **SWMBO**: wife
+- **SYL**: See you later
+- **SYS**: See you soon
+- **SYY**: Shut your yapper
+- **S’OK**: It is okay
+- **t's giving…**: Describes the vibes or connotation of something.
+- **T+**: Think positive
+- **T4BU**: Thanks for being you
+- **T:)T**: Think happy thoughts
+- **TA**: Thanks a lot
+- **TAFN**: That’s all for now
+- **Take several seats**: If someone is really getting on your nerves, you might tell them to take several seats.
+- **TAM**: Tomorro a.m.
+- **TANK**: really strong
+- **TANKED**: owned
+- **TANKING**: owning
+- **TARFU**: Things Are Really fouled Up.
+- **TAU**: Thinking about you
+- **TAUMUALU**: Thinking about you miss you always love you
+- **TBAG**: Process of disgracing a corpse
+- **TBBH**: To be brutally honest
+- **TBC**: To be continued
+- **TBD**: To be determined
+- **TBH**: short for “to be honest” and is usually used when making a comment or a joke (best to stick to texts with this one too).
+- **TBL**: Text back later
+- **TBT**: Throwback Thursday
+- **TC**: Take care
+- **TCB**: Take care of business
+- **TCOY**: Take care of yourself
+- **TD**: Tower defense
+- **TD2M**: Talk dirty to me
+- **TDTM**: Talk dirty to me
+- **Tea**: Gossiping (spilling the tea)
+- **TFF**: Too freaking funny
+- **TFS**: Thanks for sharing
+- **TFTF**: Thanks for the follow
+- **TFTI**: Thanks for the invitation
+- **TFTT**: Thanks for this tweet
+- **TFW**: That feeling when
+- **TG**: Thank goodness
+- **TGIF**: Thank God it’s Friday
+- **Thirst trap**: a social media post intended to, uh, entice viewers and get attention.
+- **Thirsty**: Stands for desperate, usually for attention
+- **This ain’t it, chief**: Another way of giving disapproval for something.
+- **THNQ**: Thank you
+- **THNX**: Thanks
+- **THOT**: That were over there
+- **THT**: Think happy thoughts
+- **THX**: Thank You
+- **TIA**: Thanks in advance
+- **TIAD**: Tomorrow is another day
+- **TIC**: Tongue-in-cheek
+- **TIL**: Today I learned
+- **TILIS**: Tell it like it is
+- **TIME**: Tears in my eyes
+- **TIR**: Teacher in room
+- **TL**: Too long
+- **TL;DR**: Too long; didn’t read
+- **TLK2UL8R**: Talk to you later
+- **TM**: Trust me
+- **TMA**: Take my advice
+- **TMB**: Text me back
+- **TMI**: Too much information
+- **TMOT**: Trust me on this
+- **TMTH**: Too much to handle
+- **TMWFI**: Take my word for it
+- **TMYL**: Tell me your location
+- **TNSTAAFL**: There’s no such thing as a free lunch
+- **TNT**: Til next time
+- **TNTL**: Trying not to laugh
+- **TOJ**: Tears of joy
+- **TOS**: Terms of service
+- **TOTES**: Totally
+- **TOU**: Thinking of you
+- **TOY**: Thinking of you
+- **TPM**: Tomorrow p.m.
+- **TPTB**: The powers that be
+- **TQ**: Te quiero / I love you
+- **TSH**: Tripping so hard
+- **TSNF**: That’s so not fair
+- **TSTB**: The sooner, the better
+- **TT**: Trending topic
+- **TTFN**: Ta-Ta For Now!
+- **TTG**: Time to go
+- **TTLY**: Totally
+- **TTTT**: These things take time
+- **TTUL**: Talk to you later
+- **TTYAFN**: Talk to you awhile from now
+- **TTYL**: Talk To You Later
+- **TTYS**: Talk to you soon
+- **TU**: Thank you
+- **TUI**: Turning you in
+- **TURNT**: Meaning excitement, turned up
+- **TWSS**: That’s what she said
+- **TX**: Thanks
+- **TY**: Thank you
+- **TYAFY**: Thank you and *freak* you
+- **TYFC**: Thank you for charity
+- **TYFYC**: Thank you for your comment
+- **TYS**: Told you so
+- **TYSO**: Thank you so much
+- **TYT**: Take your time
+- **TYVM**: Thank you very much
+- **U**: You
+- **U-L**: You will
+- **U2**: You Too
+- **U4E**: Yours For Ever
+- **UCMU**: You crack me up
+- **UDI**: Unidentified drinking injury
+- **UDM**: U (You) da (the) man
+- **UDS**: Ugly domestic scene
+- **UFB**: Un *freaking* believable
+- **UFN**: Until further notice
+- **UFWM**: You *freaking* with me?
+- **UGTBK**: You’ve got to be kidding
+- **UHGTBSM**: You have got to be shitting me!
+- **UKTR**: You know that’s right
+- **UL**: Upload
+- **UN4TUN8**: Unfortunate
+- **UNA**: Use no acronyms
+- **UNBLEFBLE**: Unbelievable
+- **UNCRTN**: Uncertain
+- **Understood the assignment**: To understand what was supposed to be done; to do something well
+- **UNPC**: not politically correct
+- **Unserious**: a more fun way of saying something or someone is ridiculous, or that it can't be taken seriously.
+- **UOK**: You ok?
+- **UR**: You are
+- **UR2YS4ME**: You are too wise for me
+- **URA***: You are a star
+- **URH**: You are hot
+- **URSKTM**: You are so kind to me
+- **URTM**: You are the man
+- **URW**: You are welcome
+- **USBCA**: Until something better comes along
+- **USU**: Usually
+- **UT**: Unreal Tournament
+- **UT2L**: You take too long
+- **UTM**: You tell me
+- **UV**: Unpleasant visual
+- **UW**: You’re welcome
+- **UX**: User experience
+- **V**: Very
+- **Valid**: Understandable
+- **VAT**: Value added tax
+- **VBL**: Visible bra line
+- **VBS**: Very big smile
+- **VC**: Voice chat
+- **VEG**: Very evil grin
+- **VFF**: Very freaking funny
+- **VFM**: Value for money
+- **VGC**: Very good condition
+- **VGG**: Very good game
+- **VGH**: Very good hand
+- **Vibe Check**: To check one's personality or attitude
+- **Vibing**: describes a generic positive feeling that someone has about something
+- **VIP**: Very important person
+- **VM**: Voice mail
+- **VN**: Very nice
+- **VNH**: Very nice hand
+- **VoIP**: Voice over Internet Protocol
+- **VRY**: Very
+- **VSC**: Very soft chuckle
+- **VSF**: Very sad face
+- **VWD**: Very well done
+- **VWP**: Very well played
+- **W**: Shorthand for win
+- **W/**: With
+- **W/B**: Welcome back
+- **W/E**: Whatever
+- **W/END**: Weekend
+- **W/O**: Without
+- **W3**: WWW
+- **W8**: Wait
+- **W@**: What?
+- **WAH**: Working at home
+- **WAJ**: What a jerk
+- **WAM**: Wait a minute
+- **WAN2**: Want to
+- **WAN2TLK**: Want to talk
+- **WAREZ**: pirated software
+- **WAS**: Wait a second
+- **WAT**: What
+- **WAWA**: Where are we at?
+- **WAYF**: Where are you from?
+- **WB**: Welcome Back
+- **WBS**: Write back soon
+- **WBU**: What about you?
+- **WC**: Welcome
+- **WCA**: Who cares anyway
+- **WDALYIC**: Who died and left you in charge
+- **WDYK**: What do you know?
+- **WDYT**: What do you think?
+- **WE**: Whatever
+- **WEBO**: Webopedia
+- **WEEBO**: a person obsessed with of Japanese culture
+- **WEP**: Weapon
+- **WGACA**: What do you think?
+- **WH5**: Who, what, when, where, why
+- **WHATEVES**: Whatever
+- **WIBNI**: Wouldn’t it be nice if
+- **Wig**: To do something so well as to "make one's wig fly off."
+- **WIIFM**: What’s in it for me?
+- **WISP**: Winning is so pleasurable
+- **WITP**: What is the point?
+- **WITW**: What in the world
+- **WIU**: Wrap it up
+- **WK**: Week
+- **WKD**: Weekend
+- **WL**: Whatta loser
+- **WOA**: Work of Art
+- **Woke**: being politically aware
+- **WOMBAT**: Waste of money, brains and time
+- **Word**: Slang for "okay."
+- **WOW**: World of Warcraft
+- **WRK**: Work
+- **WRT**: With regard to
+- **WRU**: Where are you?
+- **WRU@**: Where are you at?
+- **WRUD**: What are you doing?
+- **WTB**: Want to buy
+- **WTF**: What The Fuck
+- **WTFE**: What the freak ever
+- **WTFO**: What the freak?, over
+- **WTG**: Way To Go!
+- **WTGP**: Want to go private
+- **Wth**: What the hell
+- **WTM**: Who’s the man?
+- **WTS**: Want to sell?
+- **WTT**: Want to trade?
+- **WU**: What’s up?
+- **WUCIWUG**: What you see is what you get
+- **WUF**: Where Are You From?
+- **WUP**: What’s up?
+- **WUT**: what
+- **WUU2**: What are you up to?
+- **WUW**: What you want?
+- **WUZ**: Meaning “was”
+- **WWJD**: What would Jesus do?
+- **WWNC**: Will wonders never cease
+- **WWYC**: Write when you can
+- **WYCM**: Will you call me?
+- **WYD**: What are you doing?
+- **WYGAM**: When you get a minute
+- **WYHAM**: When you have a minute
+- **WYLEI**: When you least expect it
+- **WYSIWYG**: What you see is what you get
+- **WYWH**: Wish you were here
+- **X**: Kiss
+- **X!**: a typical woman
+- **X-1-10**: Exciting
+- **XD**: really hard laugh
+- **XLNT**: Excellent
+- **XLR8**: going faster
+- **XME**: Excuse Me
+- **XOXOXO**: Hugs & Kisses
+- **XPOST**: Cross-post
+- **XYL**: Ex-young lady
+- **XYZ**: Examine your zipper
+- **Y**: Meaning Yawn
+- **Y2K**: You’re too kind
+- **Y?**: Why?
+- **YA**: Your
+- **YAA**: Yet another acronym
+- **YABA**: Yet another bloody acronym
+- **YARLY**: Ya, really?
+- **Yas**: A very enthusiastic and celebratory way of saying yes!
+- **YBIC**: Your brother in Christ
+- **YBS**: You’ll be sorry
+- **YCDBWYCID**: You can’t do business when your computer is down
+- **YCHT**: You can have them
+- **YCLIU**: You can look it up
+- **YCMU**: You crack me up
+- **YCT**: Meaning Your comment to?
+- **YD**: Yesterday
+- **Yeet**: The Gen Z version of YOLO (you only live once). Usually exclaimed (pretty loudly) when doing something risky or throwing an item very hard...
+- **YF**: Wife
+- **YG**: Young gentleman
+- **YGG**: You go girl
+- **YGTBKM**: You’ve got to be kidding me
+- **YGTR**: You got that right
+- **YHBT**: You have been trolled
+- **YHBW**: You have been warned
+- **YHL**: You have lost
+- **YIU**: Yes, I understand
+- **YKW**: You know what
+- **YKWYCD**: You know what you can do
+- **YL**: Young lady
+- **YMMV**: Your mileage may vary
+- **YNK**: You never know
+- **YOLO**: You only live once
+- **YR**: Your
+- **YRYOCC**: You’re running your own cuckoo clock
+- **YSIC**: Your sister in Christ
+- **YSYD**: Yeah sure you do
+- **YT**: YouTube
+- **YTB**: You’re the best
+- **YTG**: You’re the greatest
+- **YTTL**: You take too long
+- **YW**: You’re welcome
+- **YWHNB**: Yes, we have no bananas
+- **YWHOL**: Yelling “woohoo” out loud
+- **YWSYLS**: You win some, you lose some
+- **YYSSW**: Yeah, yeah, sure, sure, whatever
+- **Z**: Zero
+- **Z%**: Zoo
+- **Zaddy**: Refers to an attractive, well-dressed man. Often, it’s an older man
+- **ZH**: Sleeping Hour
+- **Zombie-ing**: This happens after someone ghosts you, and then decides to start talking to you again like nothing ever happened.
+- **ZOMG**: Oh My God
+- **ZOT**: Zero tolerance
+- **ZUP**: What’s up?
+- **ZZZ**: Sleeping, bored, tired
+- **ZZZZ**: Sleeping
