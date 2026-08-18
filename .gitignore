@@ -13,3 +13,6 @@ outputs/adapter/*.bin
 *.log
 .env
 wandb/
+
+.claude/
+space/.gradio/
