@@ -14,7 +14,7 @@ Two capabilities in one model, switched via system prompt:
 - Training data (~4,600 examples): hand-authored + parallel-generated synthetic examples (persona chat, style-transfer pairs, roleplay, slang Q&A, edge cases) plus real Hugging Face slang datasets used two ways — `MLBtrio/genz-slang-dataset` compressed into a deduped term-reference file for grounding, and the already-paired `Programmer-RD-AI/genz-slang-pairs-1k` / `thesherrycode/gen-z-slangs-translation` datasets converted programmatically (filtered, deduped, capped — no LLM calls) directly into training examples.
 - Trained locally on an 8GB VRAM GPU, ~20-25 min per full run.
 
-See `configs/` for training hyperparameters and `model_card.md` for the published model documentation.
+See `configs/` for training hyperparameters and `model_card.md` for the published model documentation. For a full chronological write-up of every decision, bug, and debugging round — written as a learning resource — see [`LEARNINGS.md`](./LEARNINGS.md).
 
 ## Repo layout
 
