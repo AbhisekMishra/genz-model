@@ -1,5 +1,7 @@
 # genz-model
 
+[![Model on Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-abhisekm%2Fgenz--slang--model-yellow)](https://huggingface.co/abhisekm/genz-slang-model)
+
 A small open-source LLM fine-tuned to speak in genz internet slang, published to Hugging Face.
 
 Two capabilities in one model, switched via system prompt:
